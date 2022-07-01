@@ -105,7 +105,7 @@ def main():
         """)
 
     def getRandomWord():
-        words = ["Lapiz", "Boligrafo", "Laptop", "Telvecion", "Color", "Pantalla", "Escritorio", "Microsoft", "Apple", "Raton", "Mono", "Rana", "Sapo", "Electricidad", "Violin", "Bajo", "Alto", "Edificio", "Java", "JavaScript"]
+        words = ["Lapiz", "Boligrafo", "Laptop", "Televecion", "Jeronimo", "Color", "Pantalla", "Escritorio", "Microsoft", "Apple", "Raton", "Mono", "Rana", "Sapo", "Electricidad", "Violin", "Bajo", "Alto", "Edificio", "Java", "JavaScript", "Cerebro", "Estomago", "Esofago", "Daniel"]
         return list(words[randint(0, len(words) - 1)].lower())
 
     def youLost(answer):
